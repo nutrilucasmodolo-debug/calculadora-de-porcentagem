@@ -1,6 +1,6 @@
  body {
-     background-image: url("zegotinha.jfif");
-     background-size: 100% 100%;
+     background-image: url("lofi.gif");
+     background-size: 120% 120%;
      background-position: center;
      background-repeat: no-repeat;
      background-attachment: fixed;
@@ -17,6 +17,10 @@
      font-size: 16px;
  }
 
+ #simboloPorcentagem {
+    color: white;
+}
+
  input[type="button"] {
      padding: 10px 20px;
      font-size: 16px;
@@ -28,8 +32,38 @@
      text-shadow: 2px 2px 4px rgb(0, 0, 0);
  }
 
- #res,
+ #res {
+     margin-top: 20px;
+     font-size: 18px;
+     background-color: rgb(247, 228, 194);
+     color: black;
+     display: table;
+     padding: 10px 15px;
+     border-radius: 5px;
+     margin: 10px auto;
+     text-align: center;
+ }
+
+ #cliente {
+     margin-top: 20px;
+     font-size: 18px;
+     background-color: rgb(253, 209, 127);
+     color: black;
+     display: table;
+     padding: 10px 15px;
+     border-radius: 5px;
+     margin: 10px auto;
+     text-align: center;
+ }
+
  #resultadoFinal {
      margin-top: 20px;
      font-size: 18px;
+     background-color: rgb(235, 201, 140);
+     color: black;
+     display: table;
+     padding: 10px 15px;
+     border-radius: 5px;
+     margin: 10px auto;
+     text-align: center;
  }
