@@ -5,10 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site para ajudar a modinha</title>
+    <style>
+        body {
+            background-image: url("zegotinha.jfif");
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+
+        }
+
+        input[type="number"] {
+            width: 200px;
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        input[type="button"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        H1 {
+            color: #fff;
+            text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        }
+        #res,
+        #resultadoFinal {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Calculadora para os processos</h1>
+    <h1><strong>Calculadora para os processos<strong>
+    </h1>
     <input type="number" name="num1" id="num1" placeholder="Digite o primeiro número"> %
     <input type="number" id="porcentagem" value="30" readonly>
     <input type="button" value="Calcular" onclick="calcularPorcentagem()">
